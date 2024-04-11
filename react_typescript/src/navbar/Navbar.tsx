@@ -30,6 +30,7 @@ const Navbar: React.FC = () => {
     ["/", "메인페이지"],
     ["/signup", "회원가입"],
     ["/login", "로그인"],
+    ["/css", "CSS 연습"],
   ];
 
   return (

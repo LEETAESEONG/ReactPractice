@@ -5,6 +5,7 @@ export const Box1 = styled.div`
   width: 150px;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const P1 = styled.p`

@@ -7,6 +7,7 @@ import Rootlayout from "rootlayout/Rootlayout";
 import Main from "outlets/main/Main";
 import Signup from "outlets/auth/signup/Signup";
 import Login from "outlets/auth/login/Login";
+import PracticeCss from "outlets/practice/practice_css/PracticeCss";
 
 // router
 const router = createBrowserRouter([
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Main /> },
       { path: "/signup", element: <Signup /> },
       { path: "/login", element: <Login /> },
+      { path: "/css", element: <PracticeCss /> },
     ],
   },
 ]);
