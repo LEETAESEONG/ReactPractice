@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
     ["/signup", "회원가입"],
     ["/login", "로그인"],
     ["/css", "CSS 연습"],
+    ["/documents", "react"],
   ];
 
   return (
